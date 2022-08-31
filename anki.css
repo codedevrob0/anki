@@ -1,0 +1,69 @@
+.card {
+  font-family: arial;
+  font-size: 35px;
+  text-align: left;
+  color: black;
+  background-color: white;
+  margin:20px;
+  border: 1px;
+}
+
+.topic, .sub-topic {
+font-family:arial;
+font-size:18px;
+text-align:right;
+color:yellow;
+background-color:blue;
+display:block;
+padding:10;
+width:fit-content;
+margin-left:auto;
+margin-top:10px;
+margin-bottom:10px;
+border: dashed;
+padding: 2px;
+
+}
+
+.sub-topic{
+
+background-color:green;
+
+}
+
+.source {
+font-family:arial;
+font-size:18px;
+text-align:left;
+color:yellow;
+background-color:blue;
+display:block;
+padding:10;
+width:fit-content;
+margin-right:auto;
+margin-top:10px;
+margin-bottom:10px;
+
+
+
+}
+
+.notes {
+
+font-family:arial;
+font-size:18px;
+
+
+}
+
+h3 {
+font-family:arial;
+font-size:18px;
+text-decoration: underline;
+
+}
+
+.code {
+font-family:courier;
+
+}
