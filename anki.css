@@ -1,27 +1,65 @@
 .card {
   font-family: arial;
-  font-size: 35px;
+  font-size: 25px;
   text-align: left;
   color: black;
   background-color: white;
   margin:20px;
-  border: 1px;
+  padding: 10px;
+
+
+
 }
 
+
+.front {
+  border: solid 5px blue;
+  display: block;
+  box-shadow: 10px 10px grey;
+  padding: 10px;
+  margin: 10px;
+  height: 500px;
+
+
+
+}
+
+
+hr {
+  margin:50px;
+
+
+}
+
+
+
+.back {
+
+  border: solid 5px green;
+  display: block;
+  box-shadow: 10px 10px grey;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+
+
+}
+
+
 .topic, .sub-topic {
-font-family:arial;
-font-size:18px;
-text-align:right;
-color:yellow;
-background-color:blue;
-display:block;
-padding:10;
-width:fit-content;
-margin-left:auto;
-margin-top:10px;
-margin-bottom:10px;
-border: dashed;
-padding: 2px;
+  font-family:arial;
+  font-size:18px;
+  text-align:right;
+  color:yellow;
+  background-color:blue;
+  display:block;
+  padding:10;
+  width:fit-content;
+  margin-left:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  border: dashed;
+  padding: 10px;
 
 }
 
@@ -32,38 +70,35 @@ background-color:green;
 }
 
 .source {
-font-family:arial;
-font-size:18px;
-text-align:left;
-color:yellow;
-background-color:blue;
-display:block;
-padding:10;
-width:fit-content;
-margin-right:auto;
-margin-top:10px;
-margin-bottom:10px;
-
-
+  font-family:arial;
+  font-size:18px;
+  text-align:left;
+  color:yellow;
+  display:block;
+  padding:10;
+  width:fit-content;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom:10px;
 
 }
 
 .notes {
 
-font-family:arial;
-font-size:18px;
+  font-family:arial;
+  font-size:18px;
 
 
 }
 
 h3 {
-font-family:arial;
-font-size:18px;
-text-decoration: underline;
+  font-family:arial;
+  font-size:18px;
+  text-decoration: underline;
 
 }
 
 .code {
-font-family:courier;
+  font-family:courier;
 
 }
